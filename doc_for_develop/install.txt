@@ -18,5 +18,5 @@ module.exports = {
 }
 -------------------------------
 
-wait test
-in production, whenever <Link> components appear in the browser's viewport, Next.js automatically prefetches the code for the linked route in the background. 
+Seed Database
+npm run seed
