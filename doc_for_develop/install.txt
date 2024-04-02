@@ -3,24 +3,30 @@ React + Next.js
 Creating a new project
 npx create-next-app@latest nextjs-dashboard --use-npm --example "https://github.com/vercel/next-learn/tree/main/dashboard/starter-example"
 
+--------------------------------------------------------------
+
 Run
 npm run dev
+
+--------------------------------------------------------------
 
 SCSS
 npm install --save-dev sass
 configure the Sass compiler, use sassOptions in next.config.js.
--------------------------------
+
 const path = require('path')
 module.exports = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
 }
--------------------------------
+
+--------------------------------------------------------------
 
 Seed Database
 npm run seed
 
+--------------------------------------------------------------
 
 Debugging on Windows
 npm install --save-dev cross-env
@@ -30,3 +36,30 @@ npm install --save-dev cross-env
     "dev": "cross-env NODE_OPTIONS='--inspect' next dev"
   }
 }
+
+--------------------------------------------------------------
+
+Accessibility
+By default, Next.js includes the eslint-plugin-jsx-a11y plugin to help catch accessibility issues early.
+
+npm run lint
+
+--------------------------------------------------------------
+
+
+--------------------------------------------------------------
+
+
+--------------------------------------------------------------
+
+
+--------------------------------------------------------------
+
+
+--------------------------------------------------------------
+
+
+--------------------------------------------------------------
+
+
+--------------------------------------------------------------
